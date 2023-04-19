@@ -1,0 +1,244 @@
+.body {
+    background-color: rgb(12, 14, 14);
+    background-size: 100%;
+
+}
+
+
+
+p {
+    color: beige;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.best {
+    /* best */
+
+    padding-top: 0%;
+    padding-left: 22%;
+    font-size: 40px;
+    color: rgb(239, 46, 107);
+    text-shadow: 0px 4px 3px rgb(4, 5, 5);
+
+
+}
+
+.practice {
+    /* practice */
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-size: 25px;
+    color: rgb(224, 89, 170);
+
+
+}
+
+.sub {
+    /* subject */
+    color: rgb(255, 80, 80);
+    margin-left: 5%;
+    font-size: 35px;
+    text-shadow: 0px 4px 2px rgb(35, 36, 36);
+}
+
+.subject:hover {
+    font-family: 'Lobster', cursive;
+    opacity: 7.9;
+    color: rgb(149, 156, 223);
+    transform: scale(5.3);
+    transition: transform.2s;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0 !important;
+    background-color: none !important;
+    text-decoration: none;
+}
+
+.home {
+    color: rgb(255, 0, 195);
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-bottom: 0.5%;
+    margin-left: 5%;
+    text-shadow: 0px 6px 6px rgba(184, 240, 233, 0.985);
+}
+
+.subj {
+
+    color: rgb(251, 87, 87);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.subj:hover {
+    font-family: 'Lobster', cursive;
+    opacity: 7.9;
+    color: rgb(149, 156, 223);
+    transform: scale(5.3);
+    transition: transform.2s;
+}
+
+.jee {
+    color: rgb(97, 210, 163);
+    margin-left: 50px;
+    margin-top: 2px;
+    font-size: 60px;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 0px 4px 6px rgba(238, 131, 229, 0.985);
+}
+
+.phy {
+    font-size: 40px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    color: rgba(241, 199, 101, 0.983);
+}
+
+.phys {
+    font-size:40px;
+     margin-left: 10%;
+     margin-top: 80%;
+    padding-top: 80%;
+    text-decoration: none;
+    color: rgb(67, 154, 241);
+}
+.phys:hover{
+  color: rgb(233, 128, 86);
+}
+
+.download-btn {
+   
+    color: rgb(233, 71, 71);
+    /* padding: 0.1rem 1rem; */
+    font-size: 35px;
+    text-decoration: none;
+ 
+   
+}
+
+.download-btn:hover {
+    background-color: rgb(182, 243, 117);
+
+}
+
+.tryitten {
+    margin-left: 40px;
+    color: rgb(226, 75, 135);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.tryitten:hover {
+    color: rgb(246, 185, 31);
+}
+
+
+
+.books {
+   
+    width: 1200px;
+
+    margin: auto;
+}
+
+.book {
+    color: rgb(220, 66, 66);
+    border: 1px solid black;
+    margin-left: 1%;
+    padding: 3% 4% 5% 5%;
+    padding-top:5%;
+    margin-top: 4%;
+    float: right;
+    box-sizing: both;
+    margin-bottom: -2%;
+    font-size: 0px;
+background-color: rgb(247, 144, 144);
+}
+
+@media screen and (max-width:2340px) {
+
+    body {
+        background: rgb(178, 237, 191) !important;
+        background-size: 100%, 100%;
+    }
+
+    .list1 {
+        float: left;
+        color: coral;
+        margin-left: 30%;
+        font-size: 20px;
+        text-decoration: none;
+        text-shadow: 0px 4px 3px rgb(25, 26, 26);
+
+    }
+
+    .subject {
+
+        color: rgb(235, 159, 89);
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+    body {
+        background: rgb(211, 238, 237) !important;
+        background-size: 100%, 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .subject {
+
+        color: rgb(235, 159, 89);
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .best {
+        padding-left: 9%;
+    }
+
+    .subject {
+
+        color: rgb(235, 159, 89);
+        text-decoration: none;
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    body {
+        background: rgb(200, 255, 237) !important;
+        background-size: 100%, 100%;
+        background-repeat: no-repeat;
+    }
+
+    .best {
+        padding-left: 3%;
+
+    }
+
+    .ch1,
+    .ch2,
+    .ch3,
+    .ch4 {
+        padding-left: 0%;
+        font-size: 1px;
+    }
+
+    .subject {
+
+        color: rgb(235, 159, 89);
+        text-decoration: none;
+        font-size: 30px;
+    }
+}
